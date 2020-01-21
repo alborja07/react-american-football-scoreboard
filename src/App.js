@@ -8,6 +8,7 @@ function App() {
   const [scoreLions, setScoreLions] = useState(0);
   const [scoreTigers, setScoreTigers] = useState(0);
 
+
   const homeButtons__touchdown = e => {
   setScoreLions(scoreLions + 7);
 };
@@ -17,11 +18,11 @@ const homeButtons__fieldGoal = e => {
 };
 
 const awayButtons__touchdown = e => {
-  setScoreLions(scoreLions + 7);
+  setScoreTigers(scoreTigers + 7);
 };
 
 const awayButtons__fieldGoal = e => {
-  setScoreLions(scoreLions + 3);
+  setScoreTigers(scoreTigers + 3);
 };
 
 
